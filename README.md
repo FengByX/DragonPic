@@ -1,42 +1,41 @@
-# 龙玉涛表情包库（General 分支）
+# 龙图库（General 分支）
 
 ## 项目简介
 
-**龙玉涛表情包库** 是一个收集和整理「龙玉涛」相关表情包的开源仓库，旨在为社区提供多样化、高质量的表情素材。General 分支存放了适用于日常交流的通用表情包，方便开发者和设计师将其集成到聊天工具、社交平台等项目中。
+项目分支链接：[General 分支](https://github.com/FengByX/DragonPic/tree/General)
+
+**龙图库** 是一个收集和整理「龙图」相关的通用表情包的开源仓库，致力于为社区提供多样化、高质量的交流素材。General 分支存放最适合日常对话的表情，便于在聊天工具、社交平台等场景中快速集成。
 
 ## 分支说明
 
-- **General**：收录最常用、最通用的龙玉涛表情包，适合大多数聊天场景。  
-- **Advanced**：存放一些二次创作、特定主题的深度表情包。  
-- **Experimental**：包含正在测试或开发中的新表情包素材。
-
+- **General**：收录最常用、最通用的龙图，适合大多数聊天场景。  
+- **Advanced**：存放一些强攻击性、辱骂性的表情包，适合个性化或特定氛围的表达。
 
 ## 安装与使用
 
-1. 克隆仓库并切换到 General 分支：
+1. 克隆仓库并切换到 General 分支：  
    ```bash
-   git clone https://github.com/你的用户名/long-yutao-emoticons.git
-   cd long-yutao-emoticons
+   git clone https://github.com/FengByX/DragonPic.git
+   cd DragonPic
    git checkout General
-   ```
-2. 将 `assets/general/` 中的表情包文件复制到你的项目目录。
-3. 在聊天框或消息中引用相应文件即可：
+   ```  
+2. 将 `assets/general/` 中的表情包文件复制到项目中。  
+3. 在聊天框或消息中引用相应文件，例如：  
    ```html
-   <img src="path/to/assets/general/long_happy.png" alt="龙玉涛 开心" />
+   <img src="path/to/assets/general/long_happy.png" alt="龙图 开心" />
    ```
 
 ## 贡献指南
 
-欢迎任何形式的贡献，包括但不限于：
+欢迎提交任何形式的改进：  
 
-- ✏️ 添加新的表情包素材  
-- 🐞 修复已有文件的命名或资源问题  
-- 📄 完善 README、分类或文档
+- ✏️ 添加或优化表情包素材  
+- 🐞 修复命名或资源问题  
+- 📄 完善文档、分类或示例  
 
-请先 fork 本仓库并创建新的 feature 分支，提交完 PR 后我们会尽快审阅。
-
+请先 fork 本仓库并创建 feature 分支，提交 PR 后我们会尽快审阅。
 
 ---
 
-愿龙图表情为你的交流增添乐趣！
+愿龙图为你的交流增添更多乐趣！
 
