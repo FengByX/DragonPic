@@ -3,7 +3,7 @@
 ![Stars](https://img.shields.io/github/stars/FengByX/DragonPic?style=social)
 ![Forks](https://img.shields.io/github/forks/FengByX/DragonPic?style=social)
 ![最新提交](https://img.shields.io/github/last-commit/FengByX/DragonPic/General)
-![文件总数](https://img.shields.io/github/directory-file-count/FengByX/DragonPic)
+![文件总数](https://img.shields.io/github/directory-file-count/FengByX/DragonPic/Sensitive)
 
 ## 项目简介
 
