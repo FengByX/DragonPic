@@ -1,5 +1,13 @@
 # 龙图库（General 分支）
 
+<!-- 静态徽章 -->
+![Stars](https://img.shields.io/github/stars/FengByX/DragonPic?style=social)
+![Forks](https://img.shields.io/github/forks/FengByX/DragonPic?style=social)
+
+<!-- 动态徽章 -->
+![最新提交](https://img.shields.io/github/last-commit/FengByX/DragonPic/General)
+![文件总数](https://img.shields.io/github/directory-file-count/FengByX/DragonPic)
+
 ## 项目简介
 
 项目分支链接：[General 分支](https://github.com/FengByX/DragonPic/tree/General)   [Sensitive 分支](https://github.com/FengByX/DragonPic/tree/Sensitive)
