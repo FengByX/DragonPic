@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-项目分支链接：[General 分支](https://github.com/FengByX/DragonPic/tree/General)
+项目分支链接：[General 分支](https://github.com/FengByX/DragonPic/tree/General)   [Sensitive 分支](https://github.com/FengByX/DragonPic/tree/Sensitive)
 
 **龙图库** 是一个收集和整理「龙图」相关的通用表情包的开源仓库，致力于为社区提供多样化、高质量的交流素材。General 分支存放最适合日常对话的表情，便于在聊天工具、社交平台等场景中快速集成。
 
