@@ -1,4 +1,4 @@
-# 龙图库（General 分支）
+# 龙图库（Sensitive 分支）
 
 ![Stars](https://img.shields.io/github/stars/FengByX/DragonPic?style=social)
 ![Forks](https://img.shields.io/github/forks/FengByX/DragonPic?style=social)
