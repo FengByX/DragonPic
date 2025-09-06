@@ -81,7 +81,7 @@
      ```
      https://raw.githubusercontent.com/FengByX/DragonPic/General/assets/general/long_happy.png
      ```
-
+![配置方法](https://github.com/FengByX/DragonPic/blob/General/PicGo%E9%85%8D%E7%BD%AE%E7%A4%BA%E4%BE%8B1.png)
 ---
 
 ### 3. 使用 Flutter-PicGo 上传（移动端 ⚡）
