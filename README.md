@@ -1,24 +1,29 @@
-# 龙图库（General 分支）
+# 🐉 龙图库（Sensitive 分支）
 
 ![Stars](https://img.shields.io/github/stars/FengByX/DragonPic?style=social)
 ![Forks](https://img.shields.io/github/forks/FengByX/DragonPic?style=social)
 ![最新提交](https://img.shields.io/github/last-commit/FengByX/DragonPic/General)
 ![文件总数](https://img.shields.io/github/directory-file-count/FengByX/DragonPic/General)
 
-## 📖 项目简介
+---
 
-项目分支链接：[General 分支](https://github.com/FengByX/DragonPic/tree/General) ｜ [Sensitive 分支](https://github.com/FengByX/DragonPic/tree/Sensitive)
+## 📖 简介
 
-**龙图库** 是一个收集和整理「龙图」相关表情包的开源仓库，致力于为社区提供多样化、高质量的交流素材。
+**龙图库** 是一个开源表情包仓库，专注于收集和整理「龙图」相关素材。
+无论是日常聊天、社交互动，还是整活斗图，都能在这里找到适合的龙图。
 
-* **General 分支**：收录最适合日常交流的表情。
-* **Sensitive 分支**：包含攻击性、辱骂类表情，适合个性化表达。
+项目分为两个分支：
+
+* **General**：通用龙图，适合大多数聊天场景。
+* **Sensitive**：攻击性或带情绪的龙图，适合个性化表达。
+
+👉 分支链接：[General](https://github.com/FengByX/DragonPic/tree/General) ｜ [Sensitive](https://github.com/FengByX/DragonPic/tree/Sensitive)
 
 ---
 
-## 🚀 安装与使用
+## 🚀 快速使用
 
-1. 克隆仓库并切换到 General 分支：
+1. 克隆仓库并切换分支：
 
    ```bash
    git clone https://github.com/FengByX/DragonPic.git
@@ -26,75 +31,103 @@
    git checkout General
    ```
 
-2. 将 `assets/general/` 中的表情包复制到你的项目。
+2. 引用表情包示例：
 
-3. 在 HTML 或 Markdown 中引用：
-
-   * HTML
+   * **HTML**
 
      ```html
-     <img src="path/to/assets/general/long_happy.png" alt="龙图 开心" />
+     <img src="assets/general/long_happy.png" alt="龙图 开心" />
      ```
-
-   * Markdown
+   * **Markdown**
 
      ```markdown
-     ![龙图 开心](https://github.com/FengByX/DragonPic/blob/General/assets/general/long_happy.png?raw=true)
+     ![龙图 开心](https://raw.githubusercontent.com/FengByX/DragonPic/General/assets/general/long_happy.png)
      ```
-
-4. 在 Office Word 中插入：
-
-   * 打开 Word → 插入 → 图片 → 设备上的图片 → 选择对应文件 → 调整大小/布局。
+   * **Word**
+     插入 > 图片 > 选择 `assets/general/` 下的表情。
 
 ---
 
-## 🌟 使用 PicGo 上传图片到仓库
+## 🛠️ 表情上传方式
 
-如果你想快速上传新表情到仓库，推荐使用 [PicGo](https://github.com/Molunerfinn/PicGo)。
+你可以通过 **本地提交** 或者使用 **PicGo / Flutter-PicGo** 上传龙图。
 
-### 1. 安装 PicGo
+### 1. 本地提交
 
-* [下载地址](https://github.com/Molunerfinn/PicGo/releases)
-* 安装完成后启动 PicGo 客户端。
+1. Fork 本仓库
+2. 将图片放到 `assets/general/`
+3. 提交 PR，我们会尽快合并
 
-### 2. 配置 GitHub 图床
+---
 
-1. 打开 **PicGo 设置 → 图床设置 → GitHub**。
-2. 填写以下信息：
+### 2. 使用 PicGo 上传（推荐 🎯）
 
-   * **仓库名**：`FengByX/DragonPic`
-   * **分支名**：`General`
-   * **Token**：你的 GitHub Personal Access Token（需要 `repo` 权限）。
-   * **存储路径**：`assets/general/`
-   * **自定义域名**（推荐）：
+1. **安装 PicGo**
+   👉 [下载地址](https://github.com/Molunerfinn/PicGo/releases)
+
+2. **配置 GitHub 图床**
+
+   * 图床类型：`GitHub`
+   * 仓库名：`FengByX/DragonPic`
+   * 分支名：`General`
+   * Token：前往 [GitHub Token 设置](https://github.com/settings/tokens) 创建，勾选 `repo` 权限
+   * 存储路径：`assets/general/`
+
+3. **上传图片**
+
+   * 拖拽图片到 PicGo 或使用快捷键上传
+   * 上传成功后自动返回直链，例如：
 
      ```
-     https://raw.githubusercontent.com/FengByX/DragonPic/General
+     https://raw.githubusercontent.com/FengByX/DragonPic/General/assets/general/long_happy.png
      ```
-3. 点击 **确定** 保存。
 
-### 3. 上传图片
+---
 
-* 将图片拖拽到 PicGo 窗口，上传后会自动生成 Markdown 链接：
+### 3. 使用 Flutter-PicGo 上传（移动端 ⚡）
 
-  ```markdown
-  ![龙图 开心](https://raw.githubusercontent.com/FengByX/DragonPic/General/assets/general/long_happy.png)
-  ```
+1. **安装 Flutter-PicGo**
+   👉 [下载地址](https://github.com/PicGo/flutter-picgo/releases)
 
-这样就可以直接复制链接在 README、博客、聊天等场景中使用。
+2. **配置 GitHub 图床**（与 PicGo 一致）
+
+   * 仓库名：`FengByX/DragonPic`
+   * 分支名：`General`
+   * Token：GitHub Personal Access Token
+   * 存储路径：`assets/general/`
+
+3. **手机端上传**
+
+   * 选择表情图片 → 一键上传
+   * 上传成功后，链接会自动复制，方便粘贴到聊天或 Markdown
 
 ---
 
 ## 🤝 贡献指南
 
-欢迎提交任何形式的改进：
+欢迎加入龙图建设！你可以：
 
-* ✏️ 添加或优化表情包
-* 🐞 修复命名或资源问题
-* 📄 完善文档、分类或示例
+* ✨ 添加新龙图
+* 🐛 修复图片命名或分类
+* 📚 完善文档与示例
 
-请先 fork 本仓库并创建分支，提交 PR 后我们会尽快审阅。
+流程：
+
+1. Fork 本仓库
+2. 创建分支 `feature/xxx`
+3. 提交 PR 等待审核
 
 ---
 
-✨ 愿龙图为你的交流增添更多乐趣！
+## 💡 小贴士
+
+* 推荐统一命名规则：`long_描述.png`（例：`long_happy.png`）
+* 建议上传 **透明背景 PNG**，方便二次使用
+* 可用 PicGo / Flutter-PicGo 实现 **即传即用**，效率拉满
+
+---
+
+## ✨ 致谢
+
+感谢所有贡献者对龙图库的支持。
+愿龙图让你的对话更加生动有趣！🐉🔥
