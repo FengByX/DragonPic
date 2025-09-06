@@ -81,7 +81,7 @@
      ```
      https://raw.githubusercontent.com/FengByX/DragonPic/General/assets/general/long_happy.png
      ```
-
+![配置方法](https://github.com/FengByX/DragonPic/blob/Sensitive/PicGo%E9%85%8D%E7%BD%AE%E7%A4%BA%E4%BE%8B2.png)
 ---
 
 ### 3. 使用 Flutter-PicGo 上传（移动端 ⚡）
@@ -101,6 +101,7 @@
    * 选择表情图片 → 一键上传
    * 上传成功后，链接会自动复制，方便粘贴到聊天或 Markdown
 
+![配置方法](https://github.com/FengByX/DragonPic/blob/Sensitive/Flutter-PicGo%E9%85%8D%E7%BD%AE%E7%A4%BA%E4%BE%8B2.jpg)
 ---
 
 ## 🤝 贡献指南
